@@ -1,0 +1,50 @@
+:root
+{
+  --red: red;
+    --orangered : orangered;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 12%);
+    --redCard: rgba(210, 7, 7, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+*{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);
+       
+}
+.button{
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 12px 25px;
+  background: linear-gradient(90deg, rgba(255,0,14,1) 0%, rgba(255,0,0,1) 7%, rgba(252,69,69,1) 100%);
+  box-shadow: 0px 10px 14px 3px rgba(187, 7, 7, 0.464);
+  transition: 1s;
+}
+.button:hover{
+  color: var(--orangered);
+  background: white;
+  border: 1px solid var(--orangered);
+}
+.intro-icons{
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width : 540px) {
+    .App{
+      padding: 0.3rem 0.5rem;
+    }
+  }
+
+  

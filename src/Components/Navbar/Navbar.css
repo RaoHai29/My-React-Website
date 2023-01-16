@@ -1,0 +1,45 @@
+
+.nav-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.nav-name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.nav-right{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.nav-list{
+    flex: 10;
+}
+.nav-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    cursor: pointer;
+    list-style: none;
+}
+.nav-list>ul>li:hover{
+    color: var(--red);
+}
+@media (max-width: 540px) {
+    .nav-list{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+}

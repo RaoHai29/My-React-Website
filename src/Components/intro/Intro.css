@@ -1,0 +1,92 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+.intro-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.intro-right{
+    flex: 1;
+
+}
+.intro-name{
+    display: flex;
+    flex-direction: column;
+}
+.intro-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.intro-name>:nth-child(2){
+    color: var(--orangered);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.intro-name>:nth-child(3){
+    color: var(--gray);
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.i-btn{
+    width: 6rem;
+    height: 2rem;
+}
+.intro-right{
+    flex: 1;
+    position: relative;
+    left: 8%;
+}
+.intro-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.intro-right>:nth-child(3){
+    transform: scale(0.4);
+    top: -19%;
+    left: -24%;
+}
+.blur{
+    position: absolute;
+    top: 18%;
+    left: 44%;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: rgb(140, 255, 251);
+    z-index: -10;
+    filter: blur(160px);
+}
+.blur1{
+    position: absolute;
+    bottom: -30%;
+    left: -18%;
+    width: 21rem;
+    height: 11rem;
+    border-radius: 50%;
+    background: rgb(208, 0, 255);
+    z-index: -10;
+    filter: blur(200px);
+}
+
+
+@media screen and (max-width: 480px) {
+   .intro{
+    flex-direction: column;
+    height: 64rem;
+   } 
+   .intro-right{
+    transform: scale(0.8);
+    left: -0.3rem;
+   }
+   .floating-div:nth-of-type(1){
+    top: -7rem !important;
+   }
+}

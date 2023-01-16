@@ -1,0 +1,48 @@
+.Expert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    height: 30vh;
+    margin-top: 08rem;
+}
+.achieve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle{
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    background: white;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: red;
+    
+}
+.circle::before{
+    border-radius: 100%;
+   content: '';
+    background-image:  linear-gradient(90deg, rgba(0,255,247,1) 7%, rgba(255,0,14,1) 50%, rgba(69,97,252,1) 100%);
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+    position: absolute;
+    z-index: -1;
+    box-shadow: var(--boxShadow);
+}
+.achieve span:nth-of-type(2){
+    color: var(--orangered);
+}
+@media screen and (max-width:480px) {
+    .Expert{
+        gap:3rem;
+    }
+}
