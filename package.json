@@ -11,6 +11,7 @@
     "emailjs": "^4.0.1",
     "firebase": "^9.13.0",
     "framer-motion": "^6.5.1",
+<<<<<<< HEAD
     "lucide-react": "^0.526.0",
     "react": "^17.0.2",
     "react-countup": "^6.5.3",
@@ -20,6 +21,13 @@
     "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.0",
     "react-scroll": "^1.9.3",
+=======
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.8",
+>>>>>>> 43eb28148d147ac2230ea1346d71f1979f7ea8ad
     "swiper": "^8.4.4",
     "web-vitals": "^2.1.0"
   },
@@ -46,10 +54,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11"
+=======
+>>>>>>> 43eb28148d147ac2230ea1346d71f1979f7ea8ad
   }
 }

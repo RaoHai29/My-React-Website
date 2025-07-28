@@ -13,11 +13,17 @@
 *{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+<<<<<<< HEAD
 @import "tailwindcss";
 .App{
    width: 100%;
    
   overflow: hidden;
+=======
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+>>>>>>> 43eb28148d147ac2230ea1346d71f1979f7ea8ad
     color: var(--black);
        
 }
@@ -44,7 +50,13 @@
 }
 
 @media screen and (max-width : 540px) {
+<<<<<<< HEAD
    
+=======
+    .App{
+      padding: 0.3rem 0.5rem;
+    }
+>>>>>>> 43eb28148d147ac2230ea1346d71f1979f7ea8ad
   }
 
   

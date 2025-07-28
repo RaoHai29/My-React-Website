@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .contact-container {
     min-height: 100vh;
     padding: 4rem 2rem;
@@ -380,3 +381,44 @@
   90% { opacity: 1; transform: translateY(0); }
   100% { opacity: 0; transform: translateY(-20px); }
 }
+=======
+.contact-form{
+    padding: 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+}
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+.c-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 2px solid var(--orangered);
+    border-radius: 8px;
+    font-size: 16px;
+}
+textarea{
+    height: 4rem !important;
+}
+@media screen and (max-width: 480px) {
+    .contact-form{
+        flex-direction: column;
+        height: 95vh;
+    }
+    .c-right{
+        padding-top: 20px;
+    }
+}
+>>>>>>> 43eb28148d147ac2230ea1346d71f1979f7ea8ad
